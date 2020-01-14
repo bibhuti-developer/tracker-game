@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="coin-sprites.png">
+	<SubTexture name="coin_01" x="0" y="0" width="69" height="70"/>
+	<SubTexture name="coin_02" x="0" y="72" width="61" height="70"/>
+	<SubTexture name="coin_03" x="63" y="72" width="33" height="70"/>
+	<SubTexture name="coin_04" x="71" y="0" width="10" height="70"/>
+	<SubTexture name="coin_05" x="63" y="144" width="33" height="70"/>
+	<SubTexture name="coin_06" x="0" y="144" width="61" height="70"/>
+</TextureAtlas>

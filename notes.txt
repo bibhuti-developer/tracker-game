@@ -1,0 +1,53 @@
+create ->
+this.monsterGroup = game.add.group();
+
+var monster = game.add.sprite(----)
+this.monsterGroup.add(monster)
+
+this.monsterGroup.forEach(function(item){
+	item++
+}.bind(this))
+
+
+//this.dino = this.add.image(0, 0, 'dinoSprite').setScale(0.5).setOrigin(0, 0);
+
+// this.cameras.main.startFollow(this.dino);
+
+		// rockLayer.setCollisionByProperty({ collide: true }); 
+		// this.physics.add.collider(this.dino, rockLayer); 
+
+		// rockLayer.setCollisionByProperty({
+		// 	collides: true
+		// });
+
+		// this.physics.world.enable(this.rockLayer);
+		// this.rockLayer.body.setAllowGravity(false);
+        
+
+		//this.dino.anims.play('dinoidle', true);
+		// this.dino.anims.play('dinowalk', true);
+		// this.dino.anims.play('dinojump', true);
+		// this.dino.anims.pause();
+
+======= sprite boundaryt reset
+	// this.time.addEvent({
+	// 	delay: 1000,
+	// 	callback: this.delayDone,
+	// 	callbackScope: this,
+	// 	loop: false
+	// });
+	 delayDone(){
+	  this.dino.body.setSize(this.dino.width - 70, this.dino.height, true);
+     }		
+
+
+ this.dino.body.touching.right
+
+
+
+
+.setActive(false).setVisible(false);
+
+
+/// configuration 
+mode: Phaser.Scale.FIT

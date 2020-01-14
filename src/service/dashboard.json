@@ -1,0 +1,57 @@
+{
+  "student": {
+    "id": "2211",
+    "name": "rahul",
+    "image": "cl/student/2211.png",
+    "position": "1234.3"
+  },
+  "courses": [
+    {
+      "id": 1234,
+      "name": "APIGEE",
+      "sprite": "/cl/course/sprite/1234.png",
+      "modules": [
+        "forum:1",
+        "lesson:1",
+        "lesson:1",
+        "lesson:1",
+        "lesson:1",
+        "quiz:1",
+        "lesson:1",
+        "lesson:1",
+        "lesson:1",
+        "lesson:1",
+        "lesson:1",
+        "lesson:1",
+        "lesson:1",
+        "questionnaire:1",
+        "label:1",
+        "label:1"
+      ],
+      "index": 1
+    },
+    {
+      "id": 4567,
+      "name": "HTML",
+      "sprite": "/cl/course/sprite/4567.png",
+      "modules": [
+        "forum:1",
+        "lesson:1",
+        "lesson:1",
+        "lesson:1",
+        "lesson:0",
+        "quiz:0",
+        "lesson:0",
+        "lesson:0",
+        "quiz:0",
+        "lesson:0",
+        "questionnaire:1",
+        "lesson:1",
+        "lesson:0",
+        "lesson:0",
+        "label:0"
+      ],
+      "index": 2
+    }
+  ]
+}
